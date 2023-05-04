@@ -376,11 +376,12 @@ a {
 
 .flip-card-front > h1{
   color: var(--main-pink);
-  line-height:;
+  line-height:20px;
 }
 
 .flip-card-front > h3 {
   color: var(--main-red);
+  margin: 5px 0;
 }
 
 .flip-card-back {
