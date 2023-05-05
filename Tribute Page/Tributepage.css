@@ -1,0 +1,45 @@
+body{
+margin: 0;
+}
+
+#main{
+    padding:20px;
+    background-color:grey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #img-div{
+    padding:10px;
+    background-color:lightgray;
+  }
+
+  #image{
+    padding: 5%;
+    display:block;
+    max-width: 90%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+  #title{
+    color:brown;
+    text-align:center;
+  }
+  #description{
+    color:yellow;
+    text-align:center;
+  }
+  #tribute-info{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color:lightgrey;
+    text-align:left;
+    list-style-position: inside;
+    float:right;
+  }
+  @media (max-width: 28.75em) {
+    #tribute-info{
+      padding: 5%;
+    }
+  }

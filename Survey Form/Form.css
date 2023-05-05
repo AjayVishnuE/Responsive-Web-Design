@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://st4.depositphotos.com/35423868/41274/v/950/depositphotos_412741846-stock-illustration-green-line-clipboard-checklist-icon.jpg?forcejpeg=true);
+    font-family: sans-serif;
+    color:black;
+    padding: 20px;
+}
+#roles,#features{
+    color:darkgray;
+    width:508px;
+    height:20px;
+}
+.formbg {
+    width: 80%;
+    background-color:mediumturquoise;
+    padding:50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+
+}
+h1{
+    margin-top:0px;
+    text-align:center;
+    font-size:xx-large;
+}
+
+p{
+    text-align:center;
+}
+.labels{
+    color:indigo;
+    font-size:large;
+}
+
+.textbox{
+    width:500px;
+    height:20px;
+}
+
+.submit{
+    background-color:coral;
+    color:black;
+    width:200px;
+    height:30px;
+}
+.submit:active{
+    background-color: chocolate;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 28.75em){
+    .textbox{
+        width:200px;
+        height:20px;
+    }
+
+    #roles,#features{
+        color:darkgray;
+        width:200px;
+        height:20px;
+    }
+}
